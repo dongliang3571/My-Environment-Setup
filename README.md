@@ -37,10 +37,6 @@ Install theme Flatland first through Package control
 
 ```javascript
 {
-    "ignored_packages":
-    [
-        "Vintage"
-    ],
     "auto_indent": true,
     "auto_match_enabled": true,
     "caret_style": "solid",
