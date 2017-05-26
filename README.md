@@ -37,28 +37,33 @@ Install theme Flatland first through Package control
 
 ```javascript
 {
-    "auto_indent": true,
-    "auto_match_enabled": true,
-    "caret_style": "solid",
-    "color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
-    "detect_indentation": true,
-    "draw_indent_guides": true,
-    "font_size": 13,
-    "highlight_line": true,
-    "highlight_modified_tabs": true,
     "ignored_packages":
     [
         "Vintage"
     ],
+    "auto_indent": true,
     "smart_indent": true,
+    "detect_indentation": true,
+    "auto_match_enabled": true,
+    "tab_completion": true,
+    "auto_complete": true,
     "tab_size": 4,
-    "theme": "Flatland Dark.sublime-theme",
+    "draw_indent_guides": true,
+    "font_size": 13,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "smart_indent": true,
     "translate_tabs_to_spaces": true,
     "trim_automatic_white_space": true,
     "update_check": false,
     "use_simple_full_screen": true,
     "use_tab_stops": true,
     "rulers": [80],
-    "draw_white_space": "all"
+    "show_full_path": true,
+    "show_tab_close_buttons": true,
+    "caret_style": "solid",
+    "draw_white_space": "selection",
+    "color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
+    "theme": "Flatland Dark.sublime-theme",
 }
 ```
