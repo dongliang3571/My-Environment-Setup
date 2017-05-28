@@ -31,6 +31,29 @@ cd() { builtin cd "$@" && ls; } # ls will be executed right after cd
 source ~/.bashrc # load cd
 ```
 
+**`~/.ssh/config`**
+
+```bash
+Host lp123
+    User git 
+    Hostname <git_host>
+    IdentityFile ~/.ssh/id_rsa_work.pub
+
+Host salt_master
+    User dong
+    Hostname 3.199.87.48
+
+Host devmam_db
+    User root
+    Hostname <db_host>
+    IdentityFile ~/.ssh/id_rsa_work.pub
+    LocalForward 14331 <db_host>:1433
+
+Host dev2
+    User dong
+    Hostname <dev_host2>
+```
+
 ## Sublime
 
 Install theme Flatland first through Package control
