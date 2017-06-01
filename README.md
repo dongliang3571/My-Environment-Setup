@@ -42,7 +42,7 @@ Host lp123
 
 Host salt_master
     User dong
-    Hostname 3.199.87.48
+    Hostname <salt_ip>
 
 Host devmam_db
     User root
