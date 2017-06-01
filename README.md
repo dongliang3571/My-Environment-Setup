@@ -5,12 +5,13 @@
 **`~/.vimrc`**
 
 ```bash
-set number
-syntax on
+set number "to show line number
+set laststatus=2 "to show status bar
+syntax on " turn on syntax highlight
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set hlsearch
+set hlsearch "highlight matched keyword
 ```
 
 ## Linux
