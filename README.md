@@ -79,6 +79,7 @@ Install theme Flatland first through Package control
     "smart_indent": true,
     "translate_tabs_to_spaces": true,
     "trim_automatic_white_space": true,
+    "trim_trailing_white_space_on_save": true,
     "update_check": false,
     "use_simple_full_screen": true,
     "use_tab_stops": true,
