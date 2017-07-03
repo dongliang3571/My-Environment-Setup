@@ -38,7 +38,7 @@ source ~/.bashrc # load cd
 Host lp123
     User git 
     Hostname <git_host>
-    IdentityFile ~/.ssh/id_rsa_work.pub
+    IdentityFile ~/.ssh/id_rsa_lp123.pub
 
 Host salt_master
     User dong
@@ -47,12 +47,18 @@ Host salt_master
 Host devmam_db
     User root
     Hostname <db_host>
-    IdentityFile ~/.ssh/id_rsa_work.pub
+    IdentityFile ~/.ssh/id_rsa_devmam_db.pub
     LocalForward 14331 <db_host>:1433
 
 Host dev2
     User dong
     Hostname <dev_host2>
+   
+Host dev3
+    User root
+    Hostname <ip>
+    ProxyCommand ssh dev2 -W %h:%p
+    IdentityFile ~/.ssh/id_rsa_dev3  # Using dev2 as jumpbox to reach dev3 indirectly, the private key here is for dev3
 ```
 
 ## Sublime
