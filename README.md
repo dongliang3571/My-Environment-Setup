@@ -36,14 +36,14 @@ cd() { builtin cd "$@" && ls; } # ls will be executed right after cd
 
 echo '                                   '
 echo '                                   '
-echo '_________________________________'
+echo ' _________________________________ '
 echo '( A real programmer counts from 0 )'
-echo '---------------------------------'
-echo '        o   ^__^'
-echo '         o  (oo)\_______'
-echo '            (__)\       )\/\'
-echo '                ||----w |'
-echo '                ||     ||'
+echo ' --------------------------------- '
+echo '        o   ^__^                   '
+echo '         o  (oo)\_______           '
+echo '            (__)\       )\/\       '
+echo '                ||----w |          '
+echo '                ||     ||          '
 echo '                                   '
 echo '                                   '
 echo '                                   '
@@ -52,7 +52,7 @@ echo '                                   '
 **`~/.bash_profile`**
 
 ```bash
-source ~/.bashrc # load cd
+source ~/.bashrc # load ~/.bashrc
 ```
 
 **`~/.ssh/config`**
