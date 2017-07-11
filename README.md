@@ -34,6 +34,10 @@ alias ls="ls -G" # to get color
 # functions
 cd() { builtin cd "$@" && ls; } # ls will be executed right after cd
 
+# command-line syntax key
+# set -o vi # using vim syntax
+# set -o emacs # using emacs syntax
+
 echo '                                   '
 echo '                                   '
 echo ' _________________________________ '
