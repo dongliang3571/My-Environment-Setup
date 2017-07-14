@@ -1,5 +1,14 @@
 # My-Environment-Setup
 
+## Software you should install
+
+- [iTerm2](https://www.iterm2.com/) - Replacement for Mac default terminal
+- [homebrew](https://brew.sh/) - The missing package manager for macOS
+- [pyenv](https://github.com/pyenv/pyenv) - Simple Python Version Management
+- [go2shell](http://zipzapmac.com/go2shell) - Opens a terminal window to the current directory in Finder
+- [gitx](https://rowanj.github.io/gitx/) - GUI for the git version-control system
+- [sublime](https://www.sublimetext.com/) - Text editor for code
+
 ## VIM
 
 **`~/.vimrc`**
