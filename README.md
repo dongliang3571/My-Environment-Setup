@@ -1,6 +1,6 @@
 # My-Environment-Setup
 
-## Software you should install
+## Softwares you should install
 
 - [iTerm2](https://www.iterm2.com/) - Replacement for Mac default terminal
 - [homebrew](https://brew.sh/) - The missing package manager for macOS
