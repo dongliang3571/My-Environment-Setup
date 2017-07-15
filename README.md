@@ -47,9 +47,10 @@ cd() { builtin cd "$@" && ls; } # ls will be executed right after cd
 # set -o vi # using vim syntax
 # set -o emacs # using emacs syntax
 
-# for iTerm to turn on timestamp
+# Turn on iTerm's options
 if [ $TERM_PROGRAM = "iTerm.app" ]; then
-  osascript -e 'tell application "System Events" to keystroke "e" using {command down, shift down}'
+  osascript -e 'tell application "System Events" to keystroke "e" using {command down, shift down}' # turn on timestamp for iTerm
+  osascript -e 'tell application "System Events" to keystroke ";" using {command down, option down}' # turn on cursor guide for iTerm
 fi
 
 echo '                                   '
