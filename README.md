@@ -74,7 +74,8 @@ echo '                ||----w |          '
 echo '                ||     ||          '
 echo '                                   '
 echo '                                   '
-echo '                                   '```
+echo '                                   '
+```
 
 **`~/.bash_profile`**
 
