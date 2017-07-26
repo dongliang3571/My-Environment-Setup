@@ -38,19 +38,28 @@ set expandtab
 
 ```bash
 # alias
-alias ls="ls -G" # to get color
+# alias ls='ls -G' # to get color
+
+# For mac only, linux has similar attribute configurations
+export CLICOLOR=1 # use this attribute to get color for text in terminal instead of 'ls -G'
+export LSCOLORS=Cxfxcxdxbxegedabagacad # man ls to see more details
 
 # functions
 cd() { builtin cd "$@" && ls; } # ls will be executed right after cd
 
-# command-line syntax key
-# set -o vi # using vim syntax
-# set -o emacs # using emacs syntax
+export FTP_PROXY='http://proxyanbcge.nbc.com:80'
+export HTTPS_PROXY='http://proxyanbcge.nbc.com:80'
+export HTTP_PROXY='http://proxyanbcge.nbc.com:80'
+export ftp_proxy='http://proxyanbcge.nbc.com:80'
+export http_proxy='http://proxyanbcge.nbc.com:80'
+export https_proxy='http://proxyanbcge.nbc.com:80'
+export no_proxy=$no_proxy,usnycaplp123.nbcuni.ge.com
 
-# Turn on iTerm's options
+export WORKON_HOME=~/Envs
+
+# for iTerm to turn on timestamp
 if [ $TERM_PROGRAM = "iTerm.app" ]; then
-  osascript -e 'tell application "System Events" to keystroke "e" using {command down, shift down}' # turn on timestamp for iTerm
-  osascript -e 'tell application "System Events" to keystroke ";" using {command down, option down}' # turn on cursor guide for iTerm
+  osascript -e 'tell application "System Events" to keystroke ";" using {command down, option down}'
 fi
 
 echo '                                   '
@@ -65,8 +74,7 @@ echo '                ||----w |          '
 echo '                ||     ||          '
 echo '                                   '
 echo '                                   '
-echo '                                   '
-```
+echo '                                   '```
 
 **`~/.bash_profile`**
 
