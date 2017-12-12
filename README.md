@@ -47,13 +47,13 @@ export LSCOLORS=Cxfxcxdxbxegedabagacad # man ls to see more details
 # functions
 cd() { builtin cd "$@" && ls; } # ls will be executed right after cd
 
-export FTP_PROXY='http://proxyanbcge.nbc.com:80'
-export HTTPS_PROXY='http://proxyanbcge.nbc.com:80'
-export HTTP_PROXY='http://proxyanbcge.nbc.com:80'
-export ftp_proxy='http://proxyanbcge.nbc.com:80'
-export http_proxy='http://proxyanbcge.nbc.com:80'
-export https_proxy='http://proxyanbcge.nbc.com:80'
-export no_proxy=$no_proxy,usnycaplp123.nbcuni.ge.com
+export FTP_PROXY='http://proxy.something.com:80'
+export HTTPS_PROXY='http://proxy.something.com:80'
+export HTTP_PROXY='http://proxy.something.com:80'
+export ftp_proxy='http://proxy.something.com:80'
+export http_proxy='http://proxy.something.com:80'
+export https_proxy='http://proxy.something.com:80'
+export no_proxy=$no_proxy,proxy.somethingdifferent..com
 
 export WORKON_HOME=~/Envs
 
