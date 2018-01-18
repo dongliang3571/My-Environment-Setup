@@ -504,6 +504,8 @@ sudo apt-get install vim-gnome
 
 Install Linux subsystem
 
+https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/
+
 **ConEmu** https://conemu.github.io/
 
 **AutoHotKey** https://autohotkey.com/
