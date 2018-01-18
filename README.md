@@ -1,6 +1,8 @@
 # My-Environment-Setup
 
-## Softwares you should install
+## For Mac
+
+### Softwares you should install
 
 - [iTerm2](https://www.iterm2.com/) - Replacement for Mac default terminal
 - [homebrew](https://brew.sh/) - The missing package manager for macOS
@@ -9,7 +11,7 @@
 - [gitx](https://rowanj.github.io/gitx/) - GUI for the git version-control system
 - [sublime](https://www.sublimetext.com/) - Text editor for code
 
-## VIM
+### VIM
 
 **`~/.vimrc`**
 
@@ -32,7 +34,7 @@ set softtabstop=4
 set expandtab
 ```
 
-## Linux
+### Bash files
 
 **`~/.bashrc`**
 
@@ -111,7 +113,7 @@ Host dev3
     ProxyCommand ssh dev2 -W %h:%p
     IdentityFile ~/.ssh/id_rsa_dev3  # Using dev2 as jumpbox to reach dev3 indirectly, the private key here is for dev3
 ```
-## iTerm2 profile
+### iTerm2 profile
 
 ```json
 {
@@ -456,7 +458,7 @@ Host dev3
 }
 ```
 
-## Sublime
+### Sublime
 
 Install theme Flatland first through Package control
 
@@ -493,3 +495,15 @@ Install theme Flatland first through Package control
     "theme": "Flatland Dark.sublime-theme",
 }
 ```
+
+## For Linux(ubuntu)
+
+sudo apt-get install vim-gnome 
+
+## For Windows
+
+Install Linux subsystem
+
+**ConEmu** https://conemu.github.io/
+
+**AutoHotKey** https://autohotkey.com/
