@@ -1,5 +1,6 @@
 # alias
-# alias ls='ls -G' # to get color
+alias ls='ls -G' # to get color
+alias grep='grep -i --color=always'
 
 # For mac only, linux has similar attribute configurations
 export CLICOLOR=1 # use this attribute to get color for text in terminal instead of 'ls -G'
