@@ -4,6 +4,7 @@ syntax on "turn on syntax highlight
 set incsearch "search as characters are entered
 set hlsearch "highlight matched keyword
 set list "display tab and 
+set ic "search case insensitive
 
 " indentation
 set autoindent
