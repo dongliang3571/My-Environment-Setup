@@ -12,6 +12,7 @@
 - [gitx](https://rowanj.github.io/gitx/) - GUI for the git version-control system
 - [sublime](https://www.sublimetext.com/) - Text editor for code
     - Open `Preference -> Settings - User` and copy paste `sublime_profile` 
+- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - Replace Bash
 
 - vim
     - Open `~/.vim` and copy paste `.vim`
