@@ -13,6 +13,7 @@
 - [sublime](https://www.sublimetext.com/) - Text editor for code
     - Open `Preference -> Settings - User` and copy paste `sublime_profile` 
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - Replace Bash
+- [bit](https://github.com/chriswalz/bit) - git cli enhancement
 
 - vim
     - Open `~/.vim` and copy paste `.vim`
