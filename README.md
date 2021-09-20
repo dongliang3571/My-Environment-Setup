@@ -17,7 +17,7 @@
 - [bit](https://github.com/chriswalz/bit) - git cli enhancement
 - [Rectangle](https://rectangleapp.com) - move and resize your window size using keyboard shortcuts
 - [maccy](https://maccy.app) - Clipboard management
-
+- [rest-time](https://www.publicspace.net/RestTime/index.html) - rest reminder
 - vim
     - Open `~/.vim` and copy paste `.vim`
     
