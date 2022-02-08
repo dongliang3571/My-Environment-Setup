@@ -10,10 +10,9 @@
 - [pyenv](https://github.com/pyenv/pyenv) - Simple Python Version Management
 - [go2shell](http://zipzapmac.com/go2shell) - Opens a terminal window to the current directory in Finder
 - [gitx](https://rowanj.github.io/gitx/) - GUI for the git version-control system
-- [sublime](https://www.sublimetext.com/) - Text editor for code
+- [vscode](https://code.visualstudio.com/) - Text editor for code
     - Open `Preference -> Settings - User` and copy paste `sublime_profile` 
-- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) - Replace Bash
-    - theme: https://github.com/romkatv/powerlevel10k#how-do-i-enable-instant-prompt
+- [prezto](https://github.com/sorin-ionescu/prezto) - zsh framework
 - [bit](https://github.com/chriswalz/bit) - git cli enhancement
 - [Rectangle](https://rectangleapp.com) - move and resize your window size using keyboard shortcuts
 - [maccy](https://maccy.app) - Clipboard management
